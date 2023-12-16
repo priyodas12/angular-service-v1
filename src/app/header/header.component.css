@@ -20,3 +20,11 @@
     color: coral;
     padding:10px;
 }
+
+a{
+    color:black;
+    font-weight: bold;
+    font-size: larger;
+    padding-top: 13px;
+    text-decoration: none;
+}

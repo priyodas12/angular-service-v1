@@ -4,11 +4,14 @@
              MyWebsite
         </div>
         <div class="nav">
-            <h3>Admin</h3>  
-            <h3>Home</h3>
+            <a href="#" (click)="selectAdminOnClick()">Admin</a>  
+            <a href="#" (click)="selectHomeOnClick()">Home</a>
             <button class="sub-btn nav-sub-btn" (click)="onHeaderSubscribe()">Subscribe</button>
         </div>
     </div>  
-    <app-admin></app-admin>
-    <app-home></app-home> 
+    <div [ngSwitch]="selectedComponent">
+        <app-admin *ngSwitchCase="'admin'"></app-admin>
+        <app-home *ngSwitchCase="'home'"></app-home>
+    </div>
 </div>
+

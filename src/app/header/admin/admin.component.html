@@ -1,3 +1,25 @@
 <div class="admin">
-      
+    <div class="add-peers">
+        <input type="text" placeholder="firstname" [(ngModel)]="firstname">
+        <input type="text" placeholder="lastname" [(ngModel)]="lastname">
+        <input type="text" placeholder="email" [(ngModel)]="email">
+        <input type="number" placeholder="age" [(ngModel)]="age">
+         <select name="Gender">
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+            <option value="Others">Others</option>
+        </select>
+        <input type="text" placeholder="designation" [(ngModel)]="designation">
+        <input type="text" placeholder="city" [(ngModel)]="city">
+        <input type="text" placeholder="country" [(ngModel)]="country">
+        <select name="SubcriptionType">
+            <option value="Monthly">Monthly</option>
+            <option value="Quaterly">Quaterly</option>
+            <option value="Yearly">Yearly</option>
+        </select>
+        <button (click)="onClickSubmit()">Submit</button>
+    </div>
+    <app-userlist></app-userlist>   
 </div>
+
+

@@ -1,0 +1,11 @@
+
+
+    <div class="userlist">
+        <button (click)="refreshData()">Refresh</button>
+        <ag-grid-angular 
+            class="ag-theme-alpine"  
+            style="height: 500px;"
+            [rowData]="rowData"
+            [columnDefs]="colDefs">
+        </ag-grid-angular>
+    </div>
