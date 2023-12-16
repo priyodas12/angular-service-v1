@@ -7,4 +7,7 @@ import { Component } from '@angular/core';
 })
 export class HeroComponent {
 
+  onSubscribeHero() {
+    alert("Thank you for subscribing!")
+  }
 }
