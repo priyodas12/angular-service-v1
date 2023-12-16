@@ -1,1 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
+.sub-btn{
+    min-width: 140px;
+    min-height: 50px;
+    background-color: darkcyan;
+    border-radius: 3px;
+}

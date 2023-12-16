@@ -1,0 +1,22 @@
+.logo-nav{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    padding:10px;
+}
+
+.nav{
+    display: flex;
+    gap:10px;
+}
+
+.nav-sub-btn{
+    background-color: rgb(44, 117, 44);
+    font-size: large;
+}
+
+.logo{
+    font-size: x-large;
+    color: coral;
+    padding:10px;
+}

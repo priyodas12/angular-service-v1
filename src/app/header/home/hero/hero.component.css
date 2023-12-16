@@ -1,0 +1,7 @@
+.hero{
+        background-color: darkorange;
+        min-height: 300px;;
+        padding:10px;
+        margin:10px;
+        border-radius: 5px;
+}
