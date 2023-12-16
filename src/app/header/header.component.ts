@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { SubscribeService } from '../Services/subscribe.service';
 
 @Component({
   selector: 'app-header',
@@ -7,8 +8,11 @@ import { Component } from '@angular/core';
 })
 export class HeaderComponent {
 
+
+
   onHeaderSubscribe() {
-    alert("Your have been subscribed!")
+    let subscribeService = new SubscribeService();
+    subscribeService.onSubscribeClicked('Monthly');
   }
 
 }
