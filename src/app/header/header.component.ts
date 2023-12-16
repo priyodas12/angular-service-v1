@@ -5,12 +5,12 @@ import { SubscribeService } from '../Services/subscribe.service';
   selector: 'app-header',
   templateUrl: './header.component.html',
   styleUrls: ['./header.component.css'],
-  providers: [SubscribeService]
+
 })
 export class HeaderComponent {
 
   constructor(private subscriptionService: SubscribeService) {
-    console.log(`HeaderComponent : ${subscriptionService}`);
+    console.log(`HeaderComponent`);
   }
 
   onHeaderSubscribe() {
