@@ -5,7 +5,9 @@ import { Injectable } from '@angular/core';
 })
 export class SubscribeService {
 
-  constructor() { }
+  constructor() {
+    console.log("SubscribeService instanciated!");
+  }
 
   onSubscribeClicked(customerType: string) {
     alert(`Thank you for ${customerType} subscription!You will be enjoying service!`)
